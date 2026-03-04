@@ -1,23 +1,11 @@
 // Mobile menu toggle
 document.addEventListener('DOMContentLoaded', function() {
     const menuToggle = document.querySelector('.menu-toggle');
-    const nav = document.querySelector('.nav');
+    const header = document.querySelector('.header');
     
-    if (menuToggle && nav) {
+    if (menuToggle && header) {
         menuToggle.addEventListener('click', function() {
-            if (nav.style.display === 'flex') {
-                nav.style.display = 'none';
-            } else {
-                nav.style.display = 'flex';
-                nav.style.flexDirection = 'column';
-                nav.style.position = 'absolute';
-                nav.style.top = '80px';
-                nav.style.left = '0';
-                nav.style.right = '0';
-                nav.style.background = 'white';
-                nav.style.padding = '1rem';
-                nav.style.borderTop = '1px solid var(--gray-200)';
-            }
+            header.classList.toggle('menu-open');
         });
     }
 });
