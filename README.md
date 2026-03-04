@@ -24,13 +24,11 @@ Jednoduché statické HTML stránky pro Luxury Esthetic kliniku.
 ## Struktura
 
 - `index.html` - Homepage
-- `laserova-epilace.html` - Stránka laserové epilace
-- `endosphere.html` - Stránka Endosphere Therapy
+- `sluzby.html` - Přehled všech služeb
+- Stránky služeb (popis + ceník na každé): `microneedling.html`, `skin-treatments.html`, `laserova-epilace.html`, `ipl-lumecca.html`, `morpheus8.html`, `endosphere.html`, `vyplne.html`, `vyhlazeni-vrasek.html`, `mezoterapie.html`, `biorevitalizace.html`, `infuzni-terapie.html`
+- `predplacene-plany-vouchery.html` - Předplacené plány a vouchery
 - `pripravujeme.html` - Připravované služby
-- `permanentky.html` - Věrnostní program
-- `vouchery.html` - Dárkové vouchery
-- `o-klinice.html` - O klinice
-- `cenik.html` - Ceník
+- `kariera.html` - Kariéra
 - `kontakt.html` - Kontakt
 - `styles.css` - Všechny styly
 - `script.js` - JavaScript pro menu a formuláře

@@ -25,18 +25,15 @@
 
 Nahrajte tyto soubory:
 - index.html
-- permanentky.html
 - sluzby.html
-- laserova-epilace.html
-- endosphere.html
-- vouchery.html
-- o-klinice.html
-- cenik.html
-- kontakt.html
+- Všechny stránky služeb (microneedling.html, skin-treatments.html, laserova-epilace.html, ipl-lumecca.html, morpheus8.html, endosphere.html, vyplne.html, vyhlazeni-vrasek.html, mezoterapie.html, biorevitalizace.html, infuzni-terapie.html)
+- predplacene-plany-vouchery.html
 - pripravujeme.html
+- kariera.html
+- kontakt.html
 - styles.css
 - script.js
-- složka public/ (pokud obsahuje obrázky)
+- složka assets/ (logo)
 
 NENAHRAVAT:
 - node_modules/

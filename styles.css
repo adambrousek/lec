@@ -269,6 +269,29 @@ h1, h2, h3, h4, h5, h6 {
     padding: 0.5rem 1rem;
 }
 
+/* Price table (on service detail pages) */
+.price-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 1rem 0 2rem;
+}
+.price-table th,
+.price-table td {
+    padding: 1rem;
+    text-align: left;
+    border-bottom: 1px solid var(--gray-200);
+}
+.price-table th {
+    background: var(--gray-50);
+    font-weight: 500;
+    font-size: 0.875rem;
+    text-transform: uppercase;
+    color: var(--gray-600);
+}
+.price-table tr:hover {
+    background: var(--gray-50);
+}
+
 /* Values Grid */
 .values-grid {
     display: grid;
